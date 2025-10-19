@@ -34,11 +34,14 @@ function TaskList({
                 {task.title.substring(0, 35)}
                 {task.title.length > 35 && " ..."}
               </Button>
-              <Button onClick={() => onDeleteTaskClick(task.id)}>
-                <Trash />
-              </Button>
               <Button onClick={() => onSeeDetailsClick(task)}>
                 <ArrowRightToLine />
+              </Button>
+              <Button
+                onClick={() => onDeleteTaskClick(task.id)}
+                className="hover:bg-red-400"
+              >
+                <Trash />
               </Button>
             </li>
           ))}

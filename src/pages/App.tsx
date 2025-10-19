@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import TaskList from "./components/TaskList";
-import AddTask from "./components/AddTask";
-import { Task } from "./models/Task";
+import TaskList from "../components/TaskList";
+import AddTask from "../components/AddTask";
+import { Task } from "../models/Task";
 import { v4 } from "uuid";
-import Title from "./components/Title";
+import Title from "../components/Title";
 
 function App() {
   const [tasks, setTasks] = useState(

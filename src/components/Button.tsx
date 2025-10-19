@@ -6,7 +6,9 @@ function Button(
   return (
     <button
       {...props}
-      className={`flex items-center gap-2 px-4 bg-sky-500 hover:bg-sky-600 transition p-2 rounded-md text-white text-left whitespace-nowrap overflow-hidden text-nowrap ${props.className}`}
+      className={`flex items-center gap-2 px-4 transition p-2 rounded-md text-white bg-sky-500 text-left whitespace-nowrap overflow-hidden text-nowrap ${
+        props.className?.includes("bg-") ? props.className : " hover:bg-sky-600"
+      } ${props.className}`}
     >
       {props.children}
     </button>
