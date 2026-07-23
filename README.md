@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Agents
 
-Currently, two official plugins are available:
+![Language](https://img.shields.io/badge/Language-TypeScript-blue.svg?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg?style=flat-square)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="./logo.svg" alt="agents Logo" width="300" />
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Install](#install)
+- [Contribute](#contribute)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Introduction
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+> A minimalist and modern TypeScript project.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+**agents** is a project built primarily with TypeScript.
+Focuses on elegant design and solid architecture.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+It aims to provide a robust foundation and a great developer experience.
+
+# Features
+- 🚀 **Fast and Efficient:** Optimized for performance.
+- 🛠️ **Modern Tech Stack:** Built using TypeScript.
+- 📦 **Modular Design:** Easy to extend and maintain.
+
+# Prerequisites
+Make sure you have the following installed:
+- TypeScript environment
+- Git
+
+# Install
+
+Clone the repository and jump right in:
+
+```sh
+git clone https://github.com/cmarinho-dev/agents
+cd agents
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Contribute
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/cmarinho-dev/agents/issues).
+<img width="400" height="400" alt="logo" src="https://github.com/user-attachments/assets/ee42cb8f-d6e4-4d6a-b88a-803aea0ad39b" />
