@@ -49,4 +49,3 @@ cd agents
 # Contribute
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/cmarinho-dev/agents/issues).
-<img width="400" height="400" alt="logo" src="https://github.com/user-attachments/assets/ee42cb8f-d6e4-4d6a-b88a-803aea0ad39b" />
