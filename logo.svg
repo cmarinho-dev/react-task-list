@@ -7,5 +7,5 @@
   </defs>
   <rect width="400" height="400" rx="80" fill="url(#grad_AG)" />
   <circle cx="200" cy="200" r="120" fill="rgba(255,255,255,0.15)" />
-  <text x="200" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="140" fill="white" text-anchor="middle">AG</text>
+  <text x="200" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="90" fill="white" text-anchor="middle">Task List</text>
 </svg>
