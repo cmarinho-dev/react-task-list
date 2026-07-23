@@ -1,51 +1,91 @@
 <div align="center">
 
-# Agents
+# React Task List
 
-![Language](https://img.shields.io/badge/Language-TypeScript-blue.svg?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg?style=flat-square)
+[Demo Online](#demo-online) • [Instalação](#instalação) • [Scripts](#scripts) • [Tecnologias](#tecnologias)
 
-<img src="./logo.svg" alt="agents Logo" width="300" />
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8?logo=tailwindcss&logoColor=white)
+![Deploy](https://img.shields.io/badge/deploy-Vercel-black?logo=vercel&logoColor=white)
 
 </div>
 
 ---
 
-### Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Install](#install)
-- [Contribute](#contribute)
+### Sumário
+- [Introdução](#introdução)
+- [Demo Online](#demo-online)
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Scripts](#scripts)
+- [Tecnologias](#tecnologias)
 
-# Introduction
+# Introdução
 
-> A minimalist and modern TypeScript project.
+**React Task List** é uma aplicação de lista de tarefas (to-do list) construída com **React 19** e **TypeScript**, usando **Vite** como build tool e **TailwindCSS** para estilização. O projeto internamente é identificado como `react-todo-lister`.
 
-**agents** is a project built primarily with TypeScript.
-Focuses on elegant design and solid architecture.
+# Demo Online
 
-It aims to provide a robust foundation and a great developer experience.
+A aplicação está publicada na Vercel:
 
-# Features
-- 🚀 **Fast and Efficient:** Optimized for performance.
-- 🛠️ **Modern Tech Stack:** Built using TypeScript.
-- 📦 **Modular Design:** Easy to extend and maintain.
+👉 [react-task-list-fawn.vercel.app](https://react-task-list-fawn.vercel.app)
 
-# Prerequisites
-Make sure you have the following installed:
-- TypeScript environment
-- Git
+# Funcionalidades
 
-# Install
+- Criação, edição e remoção de tarefas;
+- Navegação entre telas com **React Router**;
+- Ícones consistentes via **lucide-react**;
+- Identificadores únicos para as tarefas gerados com **uuid**;
+- Interface estilizada com **TailwindCSS 4**.
 
-Clone the repository and jump right in:
+# Pré-requisitos
+
+- **Node.js** (recomendado 18+);
+- **npm** (ou outro gerenciador compatível, como pnpm/yarn).
+
+# Instalação
 
 ```sh
-git clone https://github.com/cmarinho-dev/agents
-cd agents
+git clone https://github.com/cmarinho-dev/react-task-list.git
+cd react-task-list
+npm install
 ```
 
-# Contribute
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/cmarinho-dev/agents/issues).
+Inicie o servidor de desenvolvimento:
+
+```sh
+npm run dev
+```
+
+A aplicação ficará disponível no endereço informado pelo Vite no terminal (por padrão, `http://localhost:5173`).
+
+# Scripts
+
+| Comando | Descrição |
+| --- | --- |
+| `npm run dev` | Inicia o servidor de desenvolvimento (Vite) |
+| `npm run build` | Compila o projeto (TypeScript + build de produção) |
+| `npm run lint` | Executa o ESLint no projeto |
+| `npm run preview` | Serve o build de produção localmente |
+
+# Tecnologias
+
+- **React 19** + **React DOM**;
+- **TypeScript**;
+- **Vite** — dev server e bundler;
+- **React Router DOM** — roteamento;
+- **TailwindCSS 4** (via `@tailwindcss/vite`) — estilização;
+- **lucide-react** — ícones;
+- **uuid** — geração de IDs únicos para as tarefas;
+- **ESLint** — padronização e qualidade de código.
+
+---
+
+<div align="center">
+
+Feito com React + TypeScript, para organizar aquela lista de tarefas.
+
+</div>
