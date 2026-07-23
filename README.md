@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./logo.svg" alt="agents Logo" width="300" />
+
 # React Task List
 
 [Demo Online](#demo-online) • [Instalação](#instalação) • [Scripts](#scripts) • [Tecnologias](#tecnologias)
